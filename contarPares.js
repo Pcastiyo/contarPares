@@ -19,6 +19,9 @@
 
 //para instalar el node modules: npm i 
 //Recorda para correr el test: npm test
+//para subir todos los archivos git add .
+// para comentar git commit -m "ejemplo 2 ejercicio"  
+//para subirlo git push
 function ContarPares(arr) {
 
 }

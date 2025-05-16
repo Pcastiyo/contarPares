@@ -22,8 +22,15 @@
 //para subir todos los archivos git add .
 // para comentar git commit -m "ejemplo 2 ejercicio"  
 //para subirlo git push
-function ContarPares(arr) {
 
+function ContarPares(arr) {
+    let contador = 0;
+    for(let i = 0; i < arr.length; i++){
+        if(arr[i] % 2 === 0){
+            contador++
+        }
+    }
+    return contador;
 }
 
 module.exports = ContarPares;
